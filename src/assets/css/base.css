@@ -1,0 +1,43 @@
+@import "./normalize.css";
+
+:root {
+  --color-text: #666;
+  --color-high-text: #42bBaa;
+  --color-tint: #42b983;
+  --color-background: #FFF;
+  --font-size: 14px;
+  --line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* 禁止用户选择文件和图片 */
+  user-select: none;
+  background: var(--color-background);
+  width: 100vw;
+}
+
+a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}
